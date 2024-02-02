@@ -23,9 +23,7 @@ const HeroSection = () => {
         <div className='bg-greenBg mt-36 p-40'>
             <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"70%",left:"10%"}}/>
             <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"90%",left:"7%",transform: 'rotate(5deg)'}}/>
-            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"80%",left:"70%",transform: 'rotate(5deg)'}}/> <br />
-
-            
+            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"80%",left:"70%",transform: 'rotate(5deg)'}}/> <br /> 
           </div>
 
     </section>
