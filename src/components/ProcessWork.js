@@ -5,22 +5,22 @@ import IosShareIcon from '@mui/icons-material/IosShare';
 const ProcessWork = () => {
     const cardData = [
         {
-            icon :<ExitToAppIcon sx={{color:"#00cc99",fontSize:"4rem"}}/>,
+            icon :<ExitToAppIcon sx={{fontSize:"4rem"}}/>,
             title:"Register",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis"
         },
         {
-            icon :<DescriptionIcon sx={{color:"#00cc99",fontSize:"4rem"}}/>,
+            icon :<DescriptionIcon sx={{fontSize:"4rem"}}/>,
             title:"Create a Resume",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis"
         },
         {
-            icon :<ContentPasteSearchIcon sx={{color:"#00cc99",fontSize:"4rem"}}/>,
+            icon :<ContentPasteSearchIcon sx={{fontSize:"4rem"}}/>,
             title:"Find a Job",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis"
         },
         {
-            icon :<IosShareIcon sx={{color:"#00cc99",fontSize:"4rem"}}/>,
+            icon :<IosShareIcon sx={{fontSize:"4rem"}}/>,
             title:"Apply Job",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis"
         },
