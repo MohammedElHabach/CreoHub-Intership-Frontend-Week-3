@@ -17,7 +17,7 @@ const FeedBack = () => {
                 </div>
 
                 <div className='pt-12'>
-                    <img src="/job.jpg" alt="" />
+                    <img className='rounded-md' src="/job.jpg" alt="image" />
                 </div>
 
                 <div className='text-center pt-8'>
@@ -69,7 +69,7 @@ const FeedBack = () => {
                 </div>
 
                 <div className='pt-12 '>
-                        <img src="/job.jpg" className='' alt="image feedback" />
+                        <img src="/job.jpg" className='rounded-md' alt="image feedback" />
                 </div>
             </div>
         </div>

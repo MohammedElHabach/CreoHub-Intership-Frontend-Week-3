@@ -4,6 +4,8 @@ import ProcessWork from "@/components/ProcessWork";
 import PopularCategories from "@/components/PopularCategories"
 import AddedJobs from "@/components/AddedJobs"
 import FeedBack from "@/components/FeedBack"
+import Cta from "@/components/Cta"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -32,6 +34,15 @@ export default function Home() {
 
     <FeedBack/>
     </div>
+
+    <div className="pt-16">
+
+    <Cta/>
+    
+    <Footer/>
+    </div>
+
+
     </>
     
   );
