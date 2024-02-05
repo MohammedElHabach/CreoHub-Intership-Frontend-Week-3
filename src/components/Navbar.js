@@ -24,8 +24,8 @@ const Navbar = () => {
                     <button className='text-black bg-white px-6 py-2 rounded-md'>Create Account</button>
                 </div>
 
-                <button id="menu-btn" className="  block hamburger md:hidden focus:outline-none">
-                    <span className="hamburger-top"></span>
+                <button id="menu-btn" className="block hamburger  md:hidden focus:outline-none">
+                    <span  className="hamburger-top"></span>
                     <span className="hamburger-middle"></span>
                     <span className="hamburger-bottom"></span>
                  </button>
