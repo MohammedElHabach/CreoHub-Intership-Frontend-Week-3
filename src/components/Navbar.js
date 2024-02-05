@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Link href="/">Contact</Link>
                 </div>
 
-                <div className='hidden md:flex space-x-3'>
+                <div className='hidden md:flex space-x-3 '>
                     <button className='text-white'>Sign in</button>
                     <button className='text-black bg-white px-6 py-2 rounded-md'>Create Account</button>
                 </div>
