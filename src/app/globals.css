@@ -10,12 +10,21 @@
   position: relative;
 }
 
+@media screen and (min-width:768px) {
+.navBanner{
+    background-image: linear-gradient(to right,#F2F2F2 60%,#00cc99 60%);
+}
+  
+}
+
+
+
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 24px;
   height: 2px;
   background: #000;
