@@ -7,13 +7,13 @@ const HeroSection = () => {
   
   return (
     <section id='hero' className='' >
-        <div className='xl:container px-5 mx-auto py-12 md:py-20 md:pb-56 '>
-          <div className='flex flex-col md:w-3/5    md:items-start items-center  md:flex-row md:gap-x-4'>
+        <div className='xl:container px-12 mx-auto py-12 md:py-20 md:pb-56 '>
+          <div className='flex flex-col md:w-3/5    md:items-start items-center md:flex-row'>
             <div className='space-y-8  '>
               <h1 className='text-4xl font-bold text-center md:text-left '>Search, Find, & Apply</h1>
-              <p className='text-center  md:text-justify md:text-lg  md:pr-10    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
+              <p className='text-center  md:text-justify md:text-lg  md:pr-36    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
 
-              <div className='  flex flex-wrap gap-y-6 justify-center items-center space-x-4 md:bg-white md:p-5  md:rounded-md  md:justify-start    '>
+              <div className='flex flex-wrap gap-y-6 justify-center items-center space-x-4 md:bg-white md:p-5 md:pr-36  md:rounded-md  md:justify-start    '>
                   <input placeholder="&#128269;  Job title or keyword" type="text" className=' bg-grayBg p-2 w-56 rounded-md border focus:outline-black  placeholder:text-black' />
                   <select className=' bg-grayBg p-2 w-40 rounded-md border focus:outline-black '>
                       <option disabled selected hidden value="">Location</option>
@@ -21,7 +21,10 @@ const HeroSection = () => {
                   <button className='px-6 py-2 rounded-md font-bold bg-greenBg text-white'>Search</button>
               </div>
             </div>
+
+            {/* <div className='bg-greenBg'>hi</div> */}
           </div>
+
             
         </div>
         <div className='bg-greenBg mt-12 py-52 md:hidden'>

@@ -4,7 +4,7 @@ import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 const FeedBack = () => {
   return (
     <section id='feedback'>
-        <div className='xl:container mx-auto px-5 mt-12'>
+        <div className='xl:container mx-auto px-12 mt-12'>
             <div className='flex flex-col items-center md:hidden'>
                 <h2 className='text-3xl font-bold text-center'>People's Feedback about JobNow</h2>
                 

@@ -8,7 +8,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 const Footer = () => {
   return (
     <section id='footer' className=' bg-greenBg py-12  '>
-        <div className='xl:container mx-auto px-5 '>
+        <div className='xl:container mx-auto px-12 '>
             <div className='flex gap-y-7 gap-x-5'>
                 {/* left div */}
                 <div className='flex flex-col  gap-5 mt-32 py-4 md:grid md:grid-cols-3  md:gap-x-16 '>

@@ -37,7 +37,7 @@ const AddedJobs = () => {
     ]
   return (
     <section id='added-jobs'>
-        <div className='xl:container mx-auto px-5 mt-12 '>
+        <div className='xl:container mx-auto px-12 mt-12 '>
             <div className='flex flex-col items-center '>
                  <h2 className="text-3xl font-bold text-center">Recently Added Jobs</h2>
                 <div className='pt-6 text-center md:w-3/4 lg:w-3/5'>
