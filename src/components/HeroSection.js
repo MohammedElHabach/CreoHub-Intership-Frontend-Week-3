@@ -7,9 +7,9 @@ const HeroSection = () => {
   
   return (
     <section id='hero' className='' >
-        <div  className='heroSection xl:container pt-12 md:pt-0   mx-auto flex flex-col md:flex-row   '>
+        <div  className='heroSection xl:container pt-12 md:pt-0 px-12   mx-auto flex flex-col md:flex-row   '>
           <div className='flex flex-col md:w-3/5    items-center md:flex-row'>
-            <div className='space-y-8 md:ml-12'>
+            <div className='space-y-8 '>
               <h1 className='text-4xl font-bold text-center md:text-left '>Search, Find, & Apply</h1>
               <p className='text-center  md:text-justify md:text-lg  md:pr-36    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
 
@@ -29,11 +29,11 @@ const HeroSection = () => {
             <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"75%",left:"17%",transform: 'rotate(5deg)'}}/> <br /> 
           </div>
             
+        </div>
         <div style={{minHeight:"400px"}} className='bg-greenBg relative mt-12  md:hidden'>
             <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"10%",left:"10%"}}/>
             <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"25%",right:"10%",transform: 'rotate(5deg)'}}/>
             <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"50%",right:"76%",transform: 'rotate(5deg)'}}/> <br /> 
-        </div>
         </div>
 
         
