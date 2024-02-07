@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div className='hidden md:flex  w-2/5 justify-end'>
+                <div className='hidden md:flex w-2/5 justify-end'>
                     <div className='space-x-3 '>
                         <button className='text-white'>Sign in</button>
                         <button className='text-black bg-white px-6 py-2 rounded-md'>Create Account</button>

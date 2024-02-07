@@ -7,9 +7,9 @@ const HeroSection = () => {
   
   return (
     <section id='hero' className='' >
-        <div className='xl:container px-12 mx-auto flex flex-col md:flex-row py-12 md:py-20 md:pb-56 '>
-          <div className='flex flex-col md:w-3/5    md:items-start items-center md:flex-row'>
-            <div className='space-y-8  '>
+        <div  className='heroSection xl:container pt-12 md:pt-0 md:py-0  mx-auto flex flex-col md:flex-row   '>
+          <div className='flex flex-col md:w-3/5    items-center md:flex-row'>
+            <div className='space-y-8 ml-12 '>
               <h1 className='text-4xl font-bold text-center md:text-left '>Search, Find, & Apply</h1>
               <p className='text-center  md:text-justify md:text-lg  md:pr-36    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
 
@@ -23,17 +23,17 @@ const HeroSection = () => {
             </div>
 
           </div>
-          <div className='hidden bg-red-500 rounded-bl-xl md:flex relative'>
-            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"",left:"7rem"}}/>
-            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"27%",left:"20rem",transform: 'rotate(5deg)'}}/>
-            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"75%",left:"7rem",transform: 'rotate(5deg)'}}/> <br /> 
+          <div className='hidden bg-greenBg md:w-2/5 rounded-bl-3xl md:flex relative'>
+            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"10%",left:"17%"}}/>
+            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"27%",left:"75%",transform: 'rotate(5deg)'}}/>
+            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"75%",left:"17%",transform: 'rotate(5deg)'}}/> <br /> 
           </div>
             
+        <div style={{minHeight:"400px"}} className='bg-greenBg relative mt-12  md:hidden'>
+            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"10%",left:"10%"}}/>
+            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"25%",right:"10%",transform: 'rotate(5deg)'}}/>
+            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"50%",right:"76%",transform: 'rotate(5deg)'}}/> <br /> 
         </div>
-        <div className='bg-greenBg mt-12 py-52 md:hidden'>
-            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"39rem",left:"10%"}}/>
-            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"45rem",left:"7%",transform: 'rotate(5deg)'}}/>
-            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"40rem",left:"70%",transform: 'rotate(5deg)'}}/> <br /> 
         </div>
 
         

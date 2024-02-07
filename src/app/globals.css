@@ -14,6 +14,10 @@
 .navBanner{
     background-image: linear-gradient(to right,#F2F2F2 60%,#00cc99 60%);
 }
+
+.heroSection{
+  min-height: 600px;
+}
   
 }
 
