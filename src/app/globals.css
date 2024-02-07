@@ -12,7 +12,7 @@
 
 @media screen and (min-width:768px) {
 .navBanner{
-    background-image: linear-gradient(to right,#F2F2F2 60%,#00cc99 60%);
+    background-image: linear-gradient(to right,#F2F2F2 75%,#00cc99 60%);
 }
 
 .heroSection{
