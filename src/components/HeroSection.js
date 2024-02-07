@@ -7,9 +7,9 @@ const HeroSection = () => {
   
   return (
     <section id='hero' className='' >
-        <div  className='heroSection xl:container pt-12 md:pt-0 md:py-0  mx-auto flex flex-col md:flex-row   '>
+        <div  className='heroSection xl:container pt-12 md:pt-0   mx-auto flex flex-col md:flex-row   '>
           <div className='flex flex-col md:w-3/5    items-center md:flex-row'>
-            <div className='space-y-8 ml-12 '>
+            <div className='space-y-8 md:ml-12'>
               <h1 className='text-4xl font-bold text-center md:text-left '>Search, Find, & Apply</h1>
               <p className='text-center  md:text-justify md:text-lg  md:pr-36    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
 
