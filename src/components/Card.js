@@ -13,22 +13,9 @@ const Card = ({ icon, title, description, margin }) => {
   };
 
   return (
-    <div
-      className={`bg-white p-6 rounded-md shadow-md cursor-default mt-5 flex flex-col items-center sm:block transition-all duration-300`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{
-        backgroundColor: isHovered ? "#00cc99" : "white",
-        color: isHovered ? "white" : "black",
-      }}
-    >
-      <div
-        className={`text-3xl mb-4`}
-        style={{
-          color: isHovered ? "white" : "#00cc99",
-          transition: "color 0.3s ease-in-out",
-        }}
-      >
+    <div className={` p-6 rounded-md shadow-md cursor-default mt-5 transition-all duration-300 ${isHovered ? 'bg-greenBg text-white':'bg-white text-black'}`}
+      onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+      <div className={`text-3xl mb-4 transition-colors ${isHovered ? 'text-white':'text-greenBg'}`} >
         {icon}
       </div>
       <h3 className={`text-xl font-bold mb-2`}>{title}</h3>
