@@ -4,6 +4,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -36,60 +37,60 @@ const Footer = () => {
                     </div>
                     <div className=' cursor-default flex-col mt-4 gap-y-4 text-white  hidden md:flex md:ml-8 lg:ml-16 xl:ml-20'>
                         <h2 className='font-bold text-3xl '>Pages</h2>
-                        <div className='flex '>
+                        <Link href="/" className='flex '>
                             <KeyboardArrowRightIcon/>
                             Home
-                        </div>
-                        <div className='flex '>
+                        </Link >
+                        <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                             Booking
-                        </div>
-                        <div className='flex '>
+                        </Link>
+                        <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                             Facilities
-                        </div>
-                        <div className='flex '>
+                        </Link>
+                        <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                             About Us
-                        </div>
-                        <div className='flex '>
+                        </Link>
+                        <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                             Location
-                        </div>
-                        <div className='flex '>
+                        </Link>
+                        <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                             Contact
-                        </div>
+                        </Link>
                     </div>
 
                 </div>
                 {/* right div */}
                 <div className='flex flex-col  gap-y-4 text-white mt-40 md:mt-30 lg:w-1/4 md:hidden'>
                     <h2 className='font-bold text-3xl '>Pages</h2>
-                    <div className='flex '>
+                    <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
                         Home
-                    </div>
-                    <div className='flex '>
+                    </Link>
+                    <Link href="/" className='flex '>
                     <KeyboardArrowRightIcon/>
                         Booking
-                    </div>
-                    <div className='flex '>
+                    </Link>
+                    <Link href="/" className='flex '>
                     <KeyboardArrowRightIcon/>
                         Facilities
-                    </div>
-                    <div className='flex '>
+                    </Link>
+                    <Link href="/" className='flex '>
                     <KeyboardArrowRightIcon/>
                         About Us
-                    </div>
-                    <div className='flex '>
+                    </Link>
+                    <Link href="/" className='flex '>
                     <KeyboardArrowRightIcon/>
                         Location
-                    </div>
-                    <div className='flex '>
+                    </Link>
+                    <Link href="/" className='flex '>
                     <KeyboardArrowRightIcon/>
                         Contact
-                    </div>
+                    </Link>
                 </div>
                 <div className='hidden flex-col gap-y-3 text-white mt-40 md:flex'>
                         <h2 className='text-3xl font-bold'>Contact Us</h2>

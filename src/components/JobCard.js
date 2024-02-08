@@ -2,9 +2,9 @@ import React from 'react'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 const JobCard = ({icon,icon2, title, description,img,subtitle}) => {
   return (
-    <div className="bg-white p-6 rounded-md shadow-md mt-5 ">
-        <div className="w-32   ">
-            <img src={`/${img}`} className=' object-cover ' alt="image for card" />
+    <div className="bg-white p-6 jobCard rounded-md shadow-md mt-5 ">
+        <div>
+            <img src={`/${img}`} className='w-32  object-cover ' alt="image for card" />
         </div>
         <div className='pt-5'>
             <h3 className="text-xl font-bold mb-2">{title}</h3>

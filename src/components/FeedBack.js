@@ -5,7 +5,7 @@ const FeedBack = () => {
   return (
     <section id='feedback'>
         <div className='xl:container mx-auto px-12 mt-12'>
-            <div className='flex flex-col items-center md:hidden'>
+            <div className=' md:hidden'>
                 <h2 className='text-3xl font-bold text-center'>People's Feedback about JobNow</h2>
                 
                 <div className=' py-6 text-gray-600 text-center'>
@@ -42,12 +42,12 @@ const FeedBack = () => {
                 <div className='flex flex-col  '>
                     <h2 className='text-3xl font-bold text-left'>People's Feedback about JobNow!</h2>
                     
-                    <div className=' w-3/4 py-6 text-gray-600 text-left'>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, officia maiores? Voluptates beatae ipsam tenetur cupiditate iusto consequuntur natus quam autem. Voluptate dignissimos iusto dolores aut in neque deserunt soluta.</p>
+                    <div className='pr-28 py-6 text-gray-600 text-left'>
+                        <p className='lg:pr-10 2xl:pr-28'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, officia maiores? Voluptates beatae ipsam tenetur cupiditate iusto consequuntur natus quam autem. Voluptate dignissimos iusto dolores aut in neque deserunt soluta.</p>
                     </div>
 
-                    <div className='w-3/4 py-6 font-bold  text-left'>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, officia maiores? Voluptates beatae ipsam tenetur cupiditate iusto consequuntur natus quam autem. Voluptate dignissimos iusto dolores aut in neque deserunt soluta.</p>
+                    <div className='pr-28 py-6 font-bold  text-left'>
+                        <p className='lg:pr-10 2xl:pr-28' >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, officia maiores? Voluptates beatae ipsam tenetur cupiditate iusto consequuntur natus quam autem. Voluptate dignissimos iusto dolores aut in neque deserunt soluta.</p>
                     </div>
 
                     <div className='text-left pt-8'>

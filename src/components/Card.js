@@ -15,7 +15,7 @@ const Card = ({ icon, title, description, margin }) => {
   };
 
   return (
-    <div className={` p-6 rounded-md shadow-md cursor-default mt-5 transition-all duration-300 ${isHovered ? 'bg-greenBg text-white':'bg-white text-black'}`}
+    <div className={` p-6 cardCategory rounded-md shadow-md cursor-default mt-5 transition-all duration-300 ${isHovered ? 'bg-greenBg text-white':'bg-white text-black'}`}
       onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
       <div className={`text-3xl mb-4 transition-colors ${isHovered ? 'text-white':'text-greenBg'}`} >
         {icon}

@@ -10,28 +10,23 @@
   position: relative;
 }
 
-@media screen and (min-width:768px) {
-.navBanner{
-    background-image: linear-gradient(to right,#F2F2F2 75%,#00cc99 60%);
+@media screen and (min-width: 768px) {
+  .navBanner {
+    background-image: linear-gradient(to right, #f2f2f2 75%, #00cc99 60%);
+  }
+
+  .heroSection {
+    min-height: 600px;
+  }
 }
 
-.heroSection{
-  min-height: 600px;
-}
-  
+.cardCategory {
+  min-height: 248px;
 }
 
-
-.swiper-container {
- /* width: 10% !important; */
+.swiper-slide {
+  padding-bottom: 10px;
 }
-
-/* .swiper-slide {
-  width: auto !important; 
-} */
-
-
-
 
 .hamburger-top,
 .hamburger-middle,
@@ -45,13 +40,12 @@
   transition: all 0.5s;
 }
 
-.hamburger-middle{
+.hamburger-middle {
   width: 12px;
 }
 
 .hamburger-middle {
   transform: translateY(7px);
-
 }
 
 .hamburger-bottom {
