@@ -1,4 +1,6 @@
 "use client";
+import React from 'react';
+
 import { useState } from "react";
 
 const Card = ({ icon, title, description, margin }) => {

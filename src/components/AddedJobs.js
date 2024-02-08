@@ -40,8 +40,8 @@ const AddedJobs = () => {
         <div className='xl:container mx-auto px-12 mt-12 '>
             <div className='flex flex-col items-center '>
                  <h2 className="text-3xl font-bold text-center">Recently Added Jobs</h2>
-                <div className='pt-6 text-center md:w-3/4 lg:w-3/5'>
-                    <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet recusandae reiciendis explicabo. Soluta eveniet quos quaerat ducimus iusto, libero impedit perspiciatis, inventore aut numquam atque optio quidem voluptate fugit qui.</p>
+                <div className='pt-6 text-center md:mx-7 lg:mx-28'>
+                    <p className="text-gray-600 md:mx-7 lg:mx-28">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet recusandae reiciendis explicabo. Soluta eveniet quos quaerat ducimus iusto, libero impedit perspiciatis, inventore aut numquam atque optio quidem voluptate fugit qui.</p>
                 </div>
                 <div className=' pt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 '>
 

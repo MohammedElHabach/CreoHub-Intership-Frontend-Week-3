@@ -22,6 +22,16 @@
 }
 
 
+.swiper-container {
+ /* width: 10% !important; */
+}
+
+.swiper-slide {
+  width: auto !important; 
+}
+
+
+
 
 .hamburger-top,
 .hamburger-middle,
