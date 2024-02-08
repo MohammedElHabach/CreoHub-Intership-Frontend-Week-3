@@ -8,7 +8,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const MySwiper = ({ children }) => {
-    console.log(children);
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y,]}
@@ -16,7 +15,21 @@ const MySwiper = ({ children }) => {
     //   loop={false}
     // scrollbar
     // navigation
-      slidesPerView={4}
+      slidesPerView={2}
+      breakpoints={{
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        // 768: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 40,
+        // },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
