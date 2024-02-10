@@ -5,12 +5,12 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Link from 'next/link';
-const page = () => {
+const Footer2 = () => {
   return (
     <section id="footer" className=" bg-greenBg py-12  ">
-      <div className="xl:container mx-auto px-12 ">
-        <div className="grid grid-cols-4 gap-x-5 md:hidden ">
-            <div className='col-span-3 '>
+      <div className="xl:container mx-auto px-5 mt-32 ">
+        <div className="grid grid-cols-3 gap-x-5 md:hidden ">
+            <div className='col-span-2 '>
                 <div className='md:order-1'>
                     <h2 className=' pb-3 font-bold text-3xl  text-black'>Job<span className='text-white '>Now</span></h2>
                     <p className='text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi, aspernatur itaque numquam ipsam in eos.</p>
@@ -150,4 +150,4 @@ const page = () => {
     </section>
   );
 };
-export default page;
+export default Footer2;

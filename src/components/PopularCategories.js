@@ -48,8 +48,12 @@ const PopularCategories = () => {
             description:"350 Job Vacancy"
         },
     ]
-    const slidesPerView=2
+    const slidesPerView=1
     const breakPointsForCategories = {
+        375:{
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
         640: {
           slidesPerView: 3,
           spaceBetween: 30,
