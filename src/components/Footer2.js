@@ -100,7 +100,7 @@ const Footer2 = () => {
                     <p className='text-white pr-40 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi, aspernatur itaque numquam ipsam in eos.</p>
                 </div>
 
-                <div className='cursor-default text-white md:order-2 space-y-2 '>
+                <div className='cursor-default text-white md:order-2 space-y-2  '>
                         <h2 className='text-3xl pb-3  font-bold '>Company</h2>
                         <p>Address : 123 Fifth Avenue,New York - 1060,USA</p>
                         <p>Call Us : +(1600) 456 7890</p>
@@ -118,7 +118,7 @@ const Footer2 = () => {
                         </div>
                 </div>
 
-                <div className='  space-y-3 text-white md:order-3 '>
+                <div className='  space-y-3 text-white md:order-3 mx-auto '>
                     <h2 className='font-bold text-3xl '>Pages</h2>
                     <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
