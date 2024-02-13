@@ -83,7 +83,7 @@ const PopularCategories = () => {
                     <MySwiper slidesPerView={slidesPerView} breakpoints={breakPointsForCategories} >
                     {cardData.map((elt) => (
                         <SwiperSlide key={elt.title}>
-                            <Card key={elt.title}  icon={elt.icon} title={elt.title} description={elt.description} margin={true} />
+                            <Card key={elt.title}  icon={elt.icon} title={elt.title} description={elt.description} margin={true} customCssClass={"cardJobCategories"} />
                         </SwiperSlide>
                         ))}
                     </MySwiper>

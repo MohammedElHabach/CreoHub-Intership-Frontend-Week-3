@@ -24,6 +24,10 @@
   min-height: 248px;
 }
 
+.cardJobCategories {
+  min-height: 260px;
+}
+
 @media screen and (max-width: 482px) {
   .cardCategory {
     min-height: 320px !important;
@@ -41,9 +45,6 @@
     min-height: 380px !important;
   }
 }
-
-
-
 
 .swiper-slide {
   padding-bottom: 10px;

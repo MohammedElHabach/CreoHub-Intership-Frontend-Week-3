@@ -29,7 +29,7 @@ const ProcessWork = () => {
   return (
     <section id='process-work'>
         <div className="xl:container mx-auto px-8 md:px-12 mt-32 ">
-           <div className="">
+           <div>
                 <h2 className="text-3xl font-bold">How it works</h2>
                 <div className="pt-4 text-justify flex items-center justify-center md:justify-between">
                     <p className="md:w-1/2 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis accusantium provident eum facilis aspernatur, rerum, maxime modi velit! Nam alias sequi harum atque culpa iure!</p>
@@ -39,7 +39,7 @@ const ProcessWork = () => {
 
            <div className="mt-6 grid grid-cols-2  gap-10 lg:grid-cols-4">
                 {cardData.map((elt,index) => (
-                    <Card key={index} icon={elt.icon} title={elt.title} description={elt.description} />
+                    <Card key={index} icon={elt.icon} title={elt.title} description={elt.description} customCssClass={"cardCategory"} />
                 ))}
             </div>
 
