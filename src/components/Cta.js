@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <section id='cta' className='-mb-24 z-10 relative mx-5 '>
+    <section id='cta' className='-mb-24 z-10 relative mx-8 mt-32'>
         <div className='container mx-auto   rounded-md  mt-12 bg-darkGreen'>
             <div className='text-center text-white py-7 '>
                 <h2 className='text-3xl font-bold  '> Register your CV now! </h2>

@@ -12,7 +12,9 @@ const Footer2 = () => {
         <div className="grid grid-cols-3 gap-x-5 md:hidden ">
             <div className='col-span-2 '>
                 <div className='md:order-1'>
-                    <h2 className=' pb-3 font-bold text-3xl  text-black'>Job<span className='text-white '>Now</span></h2>
+                    <Link href="/">
+                    <h2 className='  pb-3 font-bold text-3xl  text-black'>Job<span className='text-white '>Now</span></h2>
+                    </Link>
                     <p className='text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi, aspernatur itaque numquam ipsam in eos.</p>
                 </div>
 
@@ -27,10 +29,20 @@ const Footer2 = () => {
                 <div className='  text-white md:order-4'>
                         <h2 className='pb-3 text-3xl font-bold'>Contact Us</h2>
                         <div className='flex gap-x-4'>
-                            <GoogleIcon sx={{fontSize:"2rem"}}/>
-                            <FacebookRoundedIcon sx={{fontSize:"2rem"}}/>
-                            <TwitterIcon sx={{fontSize:"2rem"}}/>
-                            <LinkedInIcon sx={{fontSize:"2rem"}}/> 
+                            <Link href="/">
+                                <GoogleIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+                            <Link href="/">
+                                <FacebookRoundedIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+
+                            <Link href="/">
+                                <TwitterIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+
+                            <Link href="/">
+                                <LinkedInIcon sx={{fontSize:"2rem"}}/> 
+                            </Link>
                         </div>
                 </div>
 
@@ -64,7 +76,7 @@ const Footer2 = () => {
             </div>
 
             {/* right div */}
-            <div className='  mt-32 space-y-3 text-white md:hidden '>
+            <div className=' pagesFooter space-y-3 text-white md:hidden '>
                     <h2 className='font-bold text-3xl '>Pages</h2>
                     <Link href="/" className='flex '>
                         <KeyboardArrowRightIcon/>
@@ -96,7 +108,9 @@ const Footer2 = () => {
 
         <div className='hidden md:grid md:grid-cols-5  md:gap-x-6'>
                 <div className='md:order-1 col-span-2 space-y-2'>
+                    <Link href="/">
                     <h2 className='  font-bold text-3xl  text-black'>Job<span className='text-white '>Now</span></h2>
+                    </Link>
                     <p className='text-white pr-40 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi, aspernatur itaque numquam ipsam in eos.</p>
                 </div>
 
@@ -111,10 +125,20 @@ const Footer2 = () => {
                 <div className='  text-white md:order-4 space-y-2'>
                         <h2 className=' text-3xl font-bold'>Contact Us</h2>
                         <div className='flex gap-x-4'>
-                            <GoogleIcon sx={{fontSize:"2rem"}}/>
-                            <FacebookRoundedIcon sx={{fontSize:"2rem"}}/>
-                            <TwitterIcon sx={{fontSize:"2rem"}}/>
-                            <LinkedInIcon sx={{fontSize:"2rem"}}/> 
+                            <Link href="/">
+                                <GoogleIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+                            <Link href="/">
+                                <FacebookRoundedIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+
+                            <Link href="/">
+                                <TwitterIcon sx={{fontSize:"2rem"}}/>
+                            </Link>
+
+                            <Link href="/">
+                                <LinkedInIcon sx={{fontSize:"2rem"}}/> 
+                            </Link>
                         </div>
                 </div>
 

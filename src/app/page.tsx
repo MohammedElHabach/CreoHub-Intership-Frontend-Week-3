@@ -1,50 +1,32 @@
-import HeroSection from "@/components/HeroSection"
+import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ProcessWork from "@/components/ProcessWork";
-import PopularCategories from "@/components/PopularCategories"
-import AddedJobs from "@/components/AddedJobs"
-import FeedBack from "@/components/FeedBack"
-import Cta from "@/components/Cta"
-import Footer from "@/components/Footer"
-import Footer2 from "@/components/Footer2"
+import PopularCategories from "@/components/PopularCategories";
+import AddedJobs from "@/components/AddedJobs";
+import FeedBack from "@/components/FeedBack";
+import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
+import Footer2 from "@/components/Footer2";
 
 export default function Home() {
   return (
     <>
-    <div className="navBanner" >
-    <Navbar/>
-    <HeroSection/>
+      <div className="navBanner">
+        <Navbar />
+        <HeroSection />
+      </div>
 
-    </div>
+      <ProcessWork />
 
-    <div className="pt-16 ">
-        <ProcessWork/>
-    </div>
+      <PopularCategories />
 
-    <div className="pt-16">
+      <AddedJobs />
 
-    <PopularCategories/>
-    </div>
+      <FeedBack />
 
-    <div className="pt-16">
+      <Cta />
 
-    <AddedJobs/>
-    </div>
-
-    <div className="pt-16">
-
-    <FeedBack/>
-    </div>
-
-    <div className="pt-16">
-
-    <Cta/>
-    
-    <Footer2/>   
- </div>
-
-
+      <Footer2 />
     </>
-    
   );
 }

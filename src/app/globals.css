@@ -51,3 +51,7 @@
 .hamburger-bottom {
   transform: translateY(14px);
 }
+
+.pagesFooter{
+  margin-top: 10rem;
+}

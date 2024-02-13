@@ -69,7 +69,7 @@ const PopularCategories = () => {
       }
 
   return (
-    <section id='popular-categories' className='bg-grayBg'>
+    <section id='popular-categories' className='bg-grayBg mt-16'>
         <div className=" mt-12 py-16 ">
             <div className>
                 <div className="xl:container mx-auto ">
