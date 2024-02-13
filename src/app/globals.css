@@ -24,6 +24,27 @@
   min-height: 248px;
 }
 
+@media screen and (max-width: 482px) {
+  .cardCategory {
+    min-height: 320px !important;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .cardCategory {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .cardCategory {
+    min-height: 380px !important;
+  }
+}
+
+
+
+
 .swiper-slide {
   padding-bottom: 10px;
 }
@@ -50,8 +71,4 @@
 
 .hamburger-bottom {
   transform: translateY(14px);
-}
-
-.pagesFooter{
-  margin-top: 10rem;
 }
