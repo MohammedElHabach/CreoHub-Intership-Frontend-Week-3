@@ -11,11 +11,14 @@ const JobCard = ({icon,icon2, title, description,img,subtitle}) => {
             <h4 className='text-gray-600 mt-3 mb-3'>{subtitle}</h4>
             <p className="text-gray-600 text-justify">{description}</p>
         </div>
-        <div className='flex items-center gap-x-3 pt-6 text-xs sm:text-sm font-bold  '>
+        <div className='flex items-center gap-x-3 pt-8 text-xs sm:text-sm font-bold  '>
             <div className='bg-grayBg rounded-full px-2 py-1 flex items-center gap-x-2'>{icon}San Francisco,CA</div>
             <div className='bg-grayBg rounded-full px-2 py-1 flex items-center gap-x-2'>{icon2}Full Time</div>
         </div>
-        <button className='text-greenBg mt-5 text-xl font-bold flex items-center'>Apply Now {<KeyboardArrowRightIcon sx={{color:"#00cc99"}}/>} </button>
+
+        <div className='group'>
+          <button className='group-hover:text-green-600 transition-all duration-500 text-greenBg applyNowBtn mt-5 py-5 text-xl font-bold flex items-center'>Apply Now {<KeyboardArrowRightIcon className='group-hover:text-green-600' sx={{color:"#00cc99"}}/>} </button>
+        </div>
     </div>
   )
 }

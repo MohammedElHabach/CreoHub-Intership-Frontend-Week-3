@@ -23,18 +23,18 @@ const Navbar = () => {
                     </div>
 
                     <div className='hidden md:flex space-x-4 lg:space-x-9 md:mx-auto'>
-                        <Link className='' href="/">Home</Link>
-                        <Link href="/">Job</Link>
-                        <Link href="/">About Us</Link>
-                        <Link href="/">Contact</Link>
+                        <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">Home</Link>
+                        <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">Job</Link>
+                        <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">About Us</Link>
+                        <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">Contact</Link>
                     </div>
                 </div>
 
 
                 <div className='hidden p-5 bg-greenBg md:flex w-2/5 justify-end'>
                     <div className='space-x-3 '>
-                        <button className='text-white'>Sign in</button>
-                        <button className='text-black bg-white px-6 py-2 rounded-md'>Create Account</button>
+                        <button className='text-white transition-all  duration-500 hover:font-bold '>Sign in</button>
+                        <button className='text-black bg-white px-6 transition-all  duration-500 hover:font-bold py-2 rounded-md'>Create Account</button>
                     </div>
                 </div>
 

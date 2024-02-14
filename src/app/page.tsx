@@ -5,7 +5,6 @@ import PopularCategories from "@/components/PopularCategories";
 import AddedJobs from "@/components/AddedJobs";
 import FeedBack from "@/components/FeedBack";
 import Cta from "@/components/Cta";
-import Footer from "@/components/Footer";
 import Footer2 from "@/components/Footer2";
 
 export default function Home() {

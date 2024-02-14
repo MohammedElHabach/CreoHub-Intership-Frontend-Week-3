@@ -9,7 +9,7 @@ const Cta = () => {
                 <div className='my-5 md:mx-32 xl:mx-56 text-gray-300'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod exercitationem ducimus error facere tenetur rerum illum reprehenderit mollitia corporis, sit, provident, atque ipsa doloremque harum tempora dicta nihil dolor.</p>
                 </div>
-                <button className=' px-6 py-2 font-bold border-2 rounded-md'>Register Now</button>
+                <button className='transition-colors duration-500 hover:bg-white hover:text-darkGreen px-6 py-2 font-bold border-2 rounded-md'>Register Now</button>
             </div>
         </div>
 

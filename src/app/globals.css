@@ -8,7 +8,7 @@ html,body{
 
 @media screen and (min-width: 768px) {
   .navBanner {
-    background-image: linear-gradient(to right, #f2f2f2 75%, #00cc99 60%);
+    background-image: linear-gradient(to right, #f2f2f2 60%, #00cc99 60%);
   }
 
   .heroSection {
@@ -76,4 +76,8 @@ html,body{
 
 .hamburger-bottom {
   transform: translateY(14px);
+}
+
+.jobCard{
+  min-height: 480px;
 }

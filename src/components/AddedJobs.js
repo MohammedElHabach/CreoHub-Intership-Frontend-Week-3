@@ -86,7 +86,7 @@ const AddedJobs = () => {
                         ))}
                     </MySwiper>
                 </div>
-                <button className="mt-8 block mx-auto   text-greenBg rounded-md border border-greenBg font-bold px-6 py-2 ">View More</button>
+                <button className="mt-8 block mx-auto  text-greenBg rounded-md border transition-colors duration-500 hover:bg-greenBg hover:text-white border-greenBg font-bold px-6 py-2 ">View More</button>
 
 
         </div>

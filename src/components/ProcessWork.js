@@ -33,7 +33,7 @@ const ProcessWork = () => {
                 <h2 className="text-3xl font-bold">How it works</h2>
                 <div className="pt-4 text-justify flex items-center justify-center md:justify-between">
                     <p className="md:w-1/2 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis accusantium provident eum facilis aspernatur, rerum, maxime modi velit! Nam alias sequi harum atque culpa iure!</p>
-                    <button className="hidden text-greenBg rounded-md border border-greenBg font-bold px-6 py-2 md:block">Learn More</button>
+                    <button className="hidden text-greenBg rounded-md border border-greenBg transition-colors duration-500 hover:bg-greenBg hover:text-white font-bold px-6 py-2 md:block">Learn More</button>
                 </div>
            </div>
 
@@ -52,7 +52,7 @@ const ProcessWork = () => {
                     <div className="text-center mt-3 md:text-left md:py-4 ">
                         <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat. Neque tenetur necessitatibus placeat iure, pariatur ab cupiditate vitae soluta repellendus non odit, magnam cumque quidem nulla officia incidunt nostrum.</p>
                     </div>
-                <button className="mt-8 block mx-auto md:mt-4 md:mx-0 text-greenBg rounded-md border border-greenBg font-bold px-6 py-2 ">Learn More</button>
+                <button className="mt-8 block mx-auto md:mt-4 md:mx-0 text-greenBg rounded-md border border-greenBg transition-colors duration-500 hover:bg-greenBg hover:text-white font-bold px-6 py-2 ">Learn More</button>
                 </div>
 
            </div>
