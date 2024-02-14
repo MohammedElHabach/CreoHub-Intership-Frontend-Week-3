@@ -24,16 +24,16 @@ const HeroSection = () => {
 
           </div>
           <div className='hidden bg-greenBg md:w-2/5 rounded-bl-3xl md:flex relative'>
-            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"10%",left:"17%"}}/>
-            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"27%",left:"75%",transform: 'rotate(5deg)'}}/>
-            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"75%",left:"17%",transform: 'rotate(5deg)'}}/> <br /> 
+            <SearchIcon className='rounded-md p-2' sx={{color:"#00cc99",fontSize:"5rem",backgroundColor:"white",position:"absolute",top:"10%",left:"17%"}}/>
+            <SignalCellularAltIcon className='rounded-md p-2' sx={{color:"#00cc99",backgroundColor:"white",fontSize:"5rem",position:"absolute",top:"27%",left:"75%",transform: 'rotate(5deg)'}}/>
+            <SecurityIcon className='rounded-md p-2' sx={{color:"#00cc99",fontSize:"5rem",backgroundColor:"white",position:"absolute",top:"75%",left:"17%",transform: 'rotate(5deg)'}}/> <br /> 
           </div>
             
         </div>
         <div style={{minHeight:"400px"}} className='bg-greenBg relative mt-12  md:hidden'>
-            <SearchIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"10%",left:"10%"}}/>
-            <SignalCellularAltIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"25%",right:"10%",transform: 'rotate(5deg)'}}/>
-            <SecurityIcon sx={{color:"white",fontSize:"5rem",position:"absolute",top:"50%",right:"76%",transform: 'rotate(5deg)'}}/> <br /> 
+            <SearchIcon className='rounded-md p-2' sx={{color:"#00cc99",fontSize:"4rem",backgroundColor:"white",position:"absolute",top:"10%",left:"10%"}}/>
+            <SignalCellularAltIcon className='rounded-md p-2' sx={{color:"#00cc99",backgroundColor:"white",fontSize:"4rem",position:"absolute",top:"25%",right:"10%",transform: 'rotate(5deg)'}}/>
+            <SecurityIcon className='rounded-md p-2' sx={{color:"#00cc99",backgroundColor:"white",fontSize:"4rem",position:"absolute",top:"50%",right:"76%",transform: 'rotate(5deg)'}}/> <br /> 
         </div>
 
         

@@ -33,8 +33,8 @@ const Navbar = () => {
 
                 <div className='hidden p-5 bg-greenBg md:flex w-2/5 justify-end'>
                     <div className='space-x-3 '>
-                        <button className='text-white transition-all  duration-500 hover:font-bold '>Sign in</button>
-                        <button className='text-black bg-white px-6 transition-all  duration-500 hover:font-bold py-2 rounded-md'>Create Account</button>
+                        <button className='text-white transition-all  duration-500 hover:text-black'>Sign in</button>
+                        <button className='text-black bg-white px-6 transition-all  duration-500 hover:bg-black hover:text-white py-2 rounded-md'>Create Account</button>
                     </div>
                 </div>
 
