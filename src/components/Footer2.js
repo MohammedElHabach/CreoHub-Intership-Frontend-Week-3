@@ -97,18 +97,18 @@ const Footer2 = () => {
                         <h2 className=' text-3xl font-bold'>Contact Us</h2>
                         <div className='flex gap-x-4'>
                             <Link href="/">
-                                <GoogleIcon sx={{fontSize:"2rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
+                                <GoogleIcon sx={{fontSize:"1.7rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
                             </Link>
                             <Link href="/">
-                                <FacebookRoundedIcon sx={{fontSize:"2rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
-                            </Link>
-
-                            <Link href="/">
-                                <TwitterIcon sx={{fontSize:"2rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
+                                <FacebookRoundedIcon sx={{fontSize:"1.7rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
                             </Link>
 
                             <Link href="/">
-                                <LinkedInIcon sx={{fontSize:"2rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/> 
+                                <TwitterIcon sx={{fontSize:"1.7rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/>
+                            </Link>
+
+                            <Link href="/">
+                                <LinkedInIcon sx={{fontSize:"1.7rem",transition: "color 500ms ease-in-out",'&:hover':{color:"#003A2C"}}}/> 
                             </Link>
                         </div>
                 </div>
