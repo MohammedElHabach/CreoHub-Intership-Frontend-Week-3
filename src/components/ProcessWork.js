@@ -28,7 +28,7 @@ const ProcessWork = () => {
     ]
   return (
     <section id='process-work'>
-        <div className="xl:container mx-auto px-8 md:px-12 mt-32 ">
+        <div className="xl:container mx-auto px-8 md:px-12 mt-16 ">
            <div>
                 <h2 className="text-3xl font-bold">How it works</h2>
                 <div className="pt-4 text-justify flex items-center justify-center md:justify-between">

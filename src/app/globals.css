@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.hamburger {
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  transition: all 0.25s;
-  position: relative;
+html,body{
+  scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,6 +44,14 @@
 
 .swiper-slide {
   padding-bottom: 10px;
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
 }
 
 .hamburger-top,

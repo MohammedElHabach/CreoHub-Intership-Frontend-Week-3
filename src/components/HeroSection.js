@@ -6,14 +6,14 @@ import SecurityIcon from '@mui/icons-material/Security';
 const HeroSection = () => {
   
   return (
-    <section id='hero' className='' >
+    <section id='hero'>
         <div  className='heroSection xl:container pt-12 md:pt-0  px-5 md:px-12   mx-auto flex flex-col md:flex-row   '>
           <div className='flex flex-col md:w-3/5    items-center md:flex-row'>
             <div className='space-y-8 w-full'>
               <h1 className='text-4xl font-bold text-center md:text-left '>Search, Find, & Apply</h1>
               <p className='text-center  md:text-justify md:text-lg  md:pr-36    '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque magni nisi molestias dolor soluta vitae labore, animi officiis, dolore beatae quibusdam quisquam similique ipsam consequuntur, repellat sunt culpa exercitationem.</p>
 
-              <div className='flex text-xs sm:text-sm sm:space-x-4  md:space-x-1 lg:space-x-4 xl:p-5 lg:text-base  gap-y-6 justify-center items-center  xl:bg-white  md:mr-32  md:rounded-md  md:justify-between    '>
+              <div className='flex text-xs space-x-2 sm:text-sm sm:space-x-4  md:space-x-1 lg:space-x-4 xl:p-5 lg:text-base  gap-y-6 justify-center items-center  xl:bg-white  md:mr-32  md:rounded-md  md:justify-between    '>
                   <input placeholder="&#128269;  Job title or keyword" type="text" className=' bg-grayBg p-2   rounded-md border  focus:outline-black  placeholder:text-black' />
                   <select className=' bg-grayBg p-2 rounded-md border focus:outline-black '>
                       <option disabled selected hidden value="">Location</option>

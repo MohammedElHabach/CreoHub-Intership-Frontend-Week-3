@@ -1,7 +1,16 @@
+"use client";
 import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+
+    const handleOpenMenu = () => {
+        const btn = document.getElementById('menu-btn')
+        const nav = document.getElementById('menu')
+        btn.classList.toggle("open")
+        nav.classList.toggle("flex")
+        nav.classList.toggle("hidden")
+      }
   return (
     <nav id='navbar' className=''>
         <div className="xl:container relative mx-auto  px-12">
@@ -29,12 +38,23 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <button id="menu-btn" className="block hamburger  md:hidden focus:outline-none">
+                <button onClick={handleOpenMenu} id="menu-btn" className="block hamburger  md:hidden focus:outline-none">
                     <span  className="hamburger-top"></span>
                     <span className="hamburger-middle"></span>
                     <span className="hamburger-bottom"></span>
                  </button>
 
+            </div>
+
+            <div className="md:hidden">
+                <div id="menu"
+                className="hidden  absolute flex-col items-center   self-end py-8  mt-5 space-y-6 font-bold bg-grayBg sm:w-auto  left-6 right-6 drop-shadow-md"
+                >
+                <Link onClick={handleOpenMenu}  href="/">Home</Link>
+                <Link onClick={handleOpenMenu}   href="/">Job</Link>
+                <Link onClick={handleOpenMenu}  href="/">About Us</Link>
+                <Link onClick={handleOpenMenu} href="/">Contact</Link>
+                </div>
             </div>
 
         </div>
