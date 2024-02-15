@@ -4,7 +4,7 @@ const JobCard = ({icon,icon2, title, description,img,subtitle}) => {
   return (
     <div className="bg-white p-6 jobCard rounded-md shadow-md mt-5 ">
         <div>
-            <img src={`/${img}`} className='w-32  object-cover ' alt="image for card" />
+            <img src={`/${img}`} className='w-32 h-20  object-cover ' alt="image for card" />
         </div>
         <div className='pt-5'>
             <h3 className="text-xl font-bold mb-2">{title}</h3>
