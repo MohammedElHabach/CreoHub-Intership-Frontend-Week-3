@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link'
 import React from 'react'
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 const Navbar = () => {
 
@@ -22,7 +23,7 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div className='hidden md:flex space-x-4 lg:space-x-9 md:mx-auto'>
+                    <div className='hidden md:flex space-x-4 lg:space-x-10 xl:space-x-14 md:mx-auto'>
                         <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">Home</Link>
                         <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">Job</Link>
                         <Link className='transition-colors  duration-500 hover:text-greenBg' href="/">About Us</Link>
@@ -32,9 +33,9 @@ const Navbar = () => {
 
 
                 <div className='hidden p-5 bg-greenBg md:flex w-2/5 justify-end'>
-                    <div className='space-x-3 '>
+                    <div className=' space-x-1 lg:space-x-6 '>
                         <button className='text-white transition-all  duration-500 hover:text-black'>Sign in</button>
-                        <button className='text-black bg-white px-6 transition-all  duration-500 hover:bg-black hover:text-white py-2 rounded-md'>Create Account</button>
+                        <button className='text-black bg-white px-3 transition-all   duration-500 hover:bg-black hover:text-white py-2 rounded-md'><ExitToAppIcon sx={{fontSize:"1.5rem",marginBottom:"0.13rem"}}/> Create Account</button>
                     </div>
                 </div>
 

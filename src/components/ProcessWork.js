@@ -31,9 +31,11 @@ const ProcessWork = () => {
         <div className="xl:container mx-auto px-8 md:px-12 mt-16 ">
            <div>
                 <h2 className="text-3xl font-bold">How it works</h2>
-                <div className="pt-4 text-justify flex items-center justify-center md:justify-between">
-                    <p className="md:w-1/2 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis accusantium provident eum facilis aspernatur, rerum, maxime modi velit! Nam alias sequi harum atque culpa iure!</p>
-                    <button className="hidden text-greenBg rounded-md border border-greenBg transition-colors duration-500 hover:bg-greenBg hover:text-white font-bold px-6 py-2 md:block">Learn More</button>
+                <div className="pt-4 text-justify flex items-center md:justify-between  ">
+                    <div className="md:w-1/2">
+                        <p className=" text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur commodi sed, sunt omnis accusantium provident eum facilis aspernatur, rerum, maxime modi velit! Nam alias sequi harum atque culpa iure!</p>
+                    </div>
+                    <button className="hidden text-greenBg  rounded-md border border-greenBg transition-colors duration-500 hover:bg-greenBg hover:text-white font-bold px-6 py-2 md:block">Learn More</button>
                 </div>
            </div>
 
