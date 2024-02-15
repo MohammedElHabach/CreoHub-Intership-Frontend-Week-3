@@ -29,7 +29,7 @@ const FeedBack = () => {
               </p>
             </div>
 
-            <div className="hidden text-center pt-8  md:text-left">
+            <div className="hidden text-center pt-8  md:text-left md:block">
               <h3 className="font-bold text-xl ">Brown Garcia</h3>
               <div className="pt-3">
                 <p className="text-gray-600 ">
@@ -52,7 +52,7 @@ const FeedBack = () => {
             <img src="/job.jpg" className="rounded-md" alt="image feedback" />
           </div>
 
-          <div className="text-center pt-8">
+          <div className="text-center pt-8 md:hidden">
               <h3 className="font-bold text-xl ">Brown Garcia</h3>
               <div className="pt-3">
                 <p className="text-gray-600 ">
