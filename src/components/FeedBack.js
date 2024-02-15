@@ -52,7 +52,7 @@ const FeedBack = () => {
             <img src="/job.jpg" className="rounded-md" alt="image feedback" />
           </div>
 
-          <div className="text-center pt-8  md:text-left">
+          <div className="text-center pt-8">
               <h3 className="font-bold text-xl ">Brown Garcia</h3>
               <div className="pt-3">
                 <p className="text-gray-600 ">
@@ -60,7 +60,7 @@ const FeedBack = () => {
                 </p>
               </div>
 
-              <div className="flex gap-x-5 justify-center md:justify-start ">
+              <div className="flex gap-x-5 justify-center  ">
                 <div className="w-9 h-9 mt-3 bg-gray-300  rounded-full  flex items-center justify-center">
                   <KeyboardBackspaceIcon sx={{ color: "white" }} />
                 </div>
